@@ -4,7 +4,6 @@ updated: 2025-04-03
 dg-publish: true
 title: Maven
 ---
-## Maven
 ##### What is Maven?
 Maven 은 Project Management Tool 이다. 더 자세하게 말하면, [[0x01. Spring Boot Quick Start#Maven]] 에서 설명한 것과 같이 개발자들이 프로젝트에 사용되는 JAR 파일 관리를 용이하게 할 수 있도록 도와주는 도구이다.
 

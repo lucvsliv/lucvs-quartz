@@ -4,7 +4,6 @@ updated: 2025-04-03
 dg-publish: true
 title: Setter Injection
 ---
-## Setter Injection
 Setter Injection 은 Setter 를 이용하는 Injection 방식 중 하나이다. 
 
 Setter 를 이용하는 방식은 간단하다. class 에 Injection 을 담당하는 method 를 하나 생성하고, `@Autowired` annotation 을 통하여 원하는 Bean object 를 Inject 해주면 된다. 이번에는 바로 code 를 작성해보자.

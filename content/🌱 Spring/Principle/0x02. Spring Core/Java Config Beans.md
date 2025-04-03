@@ -4,7 +4,6 @@ updated: 2025-04-03
 dg-publish: true
 title: Java Config Beans
 ---
-## Java Config Bean
 Spring 에서 특정 class 를 Bean 으로 등록하기 위하여는 해당 class 에 `@Component` annotation 을 사용하였다. 
 
 이 방법 말고도 `@Configuration` annotation 을 지정한 class 를 따로 만들고, 해당 class 안에서 `@Bean` annotation 을 사용한 method 를 만들어서 Bean instatiation 을 수행할 수 있다. 새로운 Class `SwimCoach` 를 Bean 으로 등록하기 위해서는 아래와 같이 사용하면 된다.

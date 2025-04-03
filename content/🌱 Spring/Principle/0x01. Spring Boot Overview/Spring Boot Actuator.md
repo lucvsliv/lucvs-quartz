@@ -4,7 +4,6 @@ updated: 2025-04-03
 dg-publish: true
 title: Spring Boot Actuator
 ---
-## Spring Boot Actuator
 Spring Boot Actuator 는 Spring Boot Application 의 상태를 모니터링하고 관리하기 위한 도구이다.
 
 Actuator 를 사용하게 되면 특정 endpoint 들이 활성화된다. endpoint 를 활성화하는 것을 expose 한다, 즉 노출시킨다라고도 표현한다. 모든 endpoint 에 대한 목록과 정보는 [Spring 공식 문서](https://docs.spring.io/spring-boot/reference/actuator/endpoints.html) 에서 확인가능하다.

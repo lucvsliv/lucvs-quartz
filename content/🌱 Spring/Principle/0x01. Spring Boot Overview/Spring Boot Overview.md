@@ -4,7 +4,6 @@ updated: 2025-04-03
 dg-publish: true
 title: Spring Boot Overview
 ---
-## Main Objective
 Spring Boot 와 Hibernate 를 사용하여 Java Application 을 build
 
 

@@ -4,7 +4,6 @@ updated: 2025-04-03
 dg-publish: true
 title: Bean Scopes
 ---
-## Bean Scopes
 Spring 에서 Bean Scope 는 Spring Container 가 관리하는 Bean 의 생존 범위를 정의한다. 더 정확하게는 Bean 이 생성되고 소멸되는 시점과 그 동안에 유지되는 범위를 설정하는 것이다.
 
 우선 default scope 는 singleton 이다. 여기서 Spring 에서의 singleton 에 대하여 한번 짚고 넘어가자.

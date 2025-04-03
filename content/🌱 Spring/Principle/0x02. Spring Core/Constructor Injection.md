@@ -4,7 +4,6 @@ updated: 2025-04-03
 dg-publish: true
 title: Constructor Injection
 ---
-## Constructor Injection
 Constructor Injection 은 위에서 설명한대로, constructor 를 이용하는 Injection 방식이다.
 
 

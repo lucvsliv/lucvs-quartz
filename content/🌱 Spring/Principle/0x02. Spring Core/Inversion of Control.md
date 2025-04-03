@@ -4,7 +4,6 @@ updated: 2025-04-03
 dg-publish: true
 title: Inversion of Control
 ---
-## Inversion of Control
 Inversion of Control, 즉 제어의 역전이란 다음 한 문장으로 정의할 수 있다.
 
 > **Inversion of Control (IoC)**

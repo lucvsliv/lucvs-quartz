@@ -4,7 +4,6 @@ updated: 2025-04-03
 dg-publish: true
 title: Field Injection
 ---
-## Field Injection
 Injection 에 있어서, Constructor Injection 과 Setter Injection 두 가지를 살펴보았다. 이들은 spring.io 
 development team 이 추천하는 방식이지만, Field Injection 이라는 추천하지 않는 Injection 방식도 하나 존재한다.
 

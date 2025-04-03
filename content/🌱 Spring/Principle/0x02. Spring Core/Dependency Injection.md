@@ -4,7 +4,6 @@ updated: 2025-04-03
 dg-publish: true
 title: Dependency Injection
 ---
-## Dependency Injection
 ##### Dependency Injection
 우선 Dependecy Injection 이라고 하는 것은 [[DIP(Dependecy Inversion Principle)|Depedency Invsersion Principle]] 을 기반으로 한다.
 

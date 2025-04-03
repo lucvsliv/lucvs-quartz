@@ -4,7 +4,6 @@ updated: 2025-04-03
 dg-publish: true
 title: Primary
 ---
-## Primary
 interface 에 대하여 mutiple 한 implementation 이 있을 때, 앞에서 `@Qualifier` annotation 을 이용하여 해결했다. 그러나 `@Primary` 라는 annotation 을 사용해서도 해결이 가능하다.
 
 `@Primary` annotation 은 multiple implementation 가운데 단 하나만 사용할 수 있으며, 마치 default Bean 으로써 기능한다. `@Qualifier` 를 사용하여 특정 Bean object 를 지정하지 않더라도 Primary 로 지정된 Bean 이 Injection 된다.

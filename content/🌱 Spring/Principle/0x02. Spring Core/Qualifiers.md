@@ -4,7 +4,6 @@ updated: 2025-04-03
 dg-publish: true
 title: Qualifiers
 ---
-## Qualifiers
 지금까지는 `@Component` annotation 이 붙은 Coach type 의 class 가 하나밖에 없었다.
 
 그렇다면, 만약 여러개가 있었을 경우에 어떤 Bean object 를 inject 해야 할까?

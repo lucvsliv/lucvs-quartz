@@ -4,7 +4,6 @@ updated: 2025-04-03
 dg-publish: true
 title: Lazy Initialization
 ---
-## Lazy Initialization
 Spring Application 이 시작되고 난 뒤에 Spring 은, 더 정확하게 말하면 ApplicationContext 가 모든 Bean 에 대한 instance 를 생성하고, initialize 한다.
 
 Lazy Initialization 은 모든 Bean 을 실행 초기에 initialize 하는 것이 아니라, DI 등과 같은 explicit 한 request 가 있을 때 ApplicationContext 가 Bean 을 생성하고 initialize 하는 것이다. Application 의 startup 시간을 빠르게 할 수 있는 장점이 존재한다. 동작 순서는 다음과 같다.

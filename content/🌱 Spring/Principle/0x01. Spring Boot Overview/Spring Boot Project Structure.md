@@ -4,7 +4,6 @@ updated: 2025-04-03
 dg-publish: true
 title: Spring Boot Project Structure
 ---
-## Spring Boot Project Structure
 위에서 기본적인 Maven Project 에 대한 directory 구성에 대하여 살펴보았다. 그러나 아직 확인하고 넘어가야 할 파일들이 몇개 더 존재한다.
 
 ##### Maven Wrapper Files

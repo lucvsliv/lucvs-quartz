@@ -4,7 +4,6 @@ updated: 2025-04-03
 dg-publish: true
 title: Spring Boot Starter
 ---
-## Spring Boot Starter
 Spring Boot 을 이용하여 개발을 하게 된다면 어떤 dependency 를 사용해야 할지 선택해야만 한다. Spring Boot 의 `Spring Boot Starter` 는 특정 기능을 구현하는 데 필요한 라이브러리와 설정을 미리 묶어서 제공하는 package 이다.
 
 예를 들어, `spring-boot-starter-web` 은 spring-web, spring-webmvc, hibernate-validator, json, tomcat 등의 dependency 들을 포함한다.

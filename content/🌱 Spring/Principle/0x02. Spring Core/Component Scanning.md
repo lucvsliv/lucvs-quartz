@@ -4,7 +4,6 @@ updated: 2025-04-03
 dg-publish: true
 title: Component Scanning
 ---
-## Component Scanning
 Spring 은 `@Component` 등과 같은 특별한 annotation 들에 대하여 scan 을 수행한다. 이후 자동으로 Spring Container 에 이들을 Bean 으로 등록된다.
 
 더 내부적으로 들어가보자. Spring Framework 의 누가 scan 을 수행하는 것인가? 그리고 누가 Bean 으로 등록하는 것인가?
