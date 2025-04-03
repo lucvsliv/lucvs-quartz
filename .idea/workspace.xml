@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc9c83a1-d214-4044-9eac-6dcf36941fa7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/quartz.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz/styles/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/styles/base.scss" afterDir="false" />
-    </list>
+    <list default="true" id="dc9c83a1-d214-4044-9eac-6dcf36941fa7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +77,7 @@
       <updated>1743648403646</updated>
       <workItem from="1743648405296" duration="5330000" />
       <workItem from="1743653952640" duration="11053000" />
-      <workItem from="1743671165886" duration="2685000" />
+      <workItem from="1743671165886" duration="2863000" />
     </task>
     <servers />
   </component>
