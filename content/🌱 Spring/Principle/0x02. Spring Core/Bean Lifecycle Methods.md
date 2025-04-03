@@ -43,7 +43,7 @@ public class FootballCoach implements Coach {
 먼저, `FootballCoach` 에 대한 Bean instantiated 가 된 이후에, 작성해준 init method 가 실행된 것을 알 수 있으며, Application 을 종료하기 직전에, 작성해준 destroy method 가 실행된 것을 알 수 있다.
 
 ##### ! Special Note for Prototype Scope
-Bean 의 scope 를 Prototype 으로 설정해놓았다면 [[Bean Scopes#2. Prototype|여기에서]] 작성된 것처럼, Bean instantiated 다음에 더이상 Spring Container 가 관리하지 않는다. 실제로 Prototype 으로 scope 를 지정하고 test 해보면,
+Bean 의 scope 를 Prototype 으로 설정해놓았다면 [[🌱 Spring/Principle/0x02. Spring Core/Bean Scopes#2. Prototype|여기에서]] 작성된 것처럼, Bean instantiated 다음에 더이상 Spring Container 가 관리하지 않는다. 실제로 Prototype 으로 scope 를 지정하고 test 해보면,
 
 ![[images/스크린샷 2025-04-02 09.39.26.png]]
 

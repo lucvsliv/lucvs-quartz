@@ -43,7 +43,7 @@ public class DemoController {
 ##### Constructor Injection - Behind the Scenes
 DI(Dependency Injection) 을 통하여 object 가 injection 된 것은 알겠다. 하지만 아주 잘 알고 있듯이, Java 에서는 단순히 class type 의 field 를 선언한다고 해서 해당 class 의 object 가 생기는 것은 아니다. 코드상에서는 `theCoach` 나 `DemoController` 단순히 선언만 했을 뿐 실제 object 를 생성하는 부분은 보이지 않는다.
 
-이런 역할을 내부적으로 수행하는 것이 바로 Spring IoC Container, 위에서 언급한 Spring Container 이다. Spring Container 는 [[Inversion of Control#Spring Container]] 에서 언급한 것처럼 object 를 만들고, dependency 를 injection 하는 역할을 수행한다. 따라서 Spring IoC Container 는 내부적으로 아래의 코드를 수행하는 것이다.
+이런 역할을 내부적으로 수행하는 것이 바로 Spring IoC Container, 위에서 언급한 Spring Container 이다. Spring Container 는 [[🌱 Spring/Principle/0x02. Spring Core/Inversion of Control#Spring Container|여기]]에서 언급한 것처럼 object 를 만들고, dependency 를 injection 하는 역할을 수행한다. 따라서 Spring IoC Container 는 내부적으로 아래의 코드를 수행하는 것이다.
 
 ```java
 Coach theCoach = new FootballCoach();

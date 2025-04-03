@@ -6,7 +6,7 @@ title: Spring Boot Properties
 ---
 hard-coding 을 통해서 모든 값들을 static 하게 app 에 사용하는 것은 매우 유연하지 못하다. 따라서 app 을 configurable 하게 만들 필요가 있다.
 
-이때, `application.properties` 파일에서 custom properties 를 정의할 수 있다. 이렇게 만들어진 properties 들은 `@Value` annotation 을 사용하여 app 에서 해당 데이터를 접근 가능하게 만들 수 있다. 앞서 [[Spring Boot Overview#Application Properties|Application Properties]] 에 대하여 설명한 것처럼 말이다. 
+이때, `application.properties` 파일에서 custom properties 를 정의할 수 있다. 이렇게 만들어진 properties 들은 `@Value` annotation 을 사용하여 app 에서 해당 데이터를 접근 가능하게 만들 수 있다. 앞서 [[🌱 Spring/Principle/0x01. Spring Boot Overview/Spring Boot Project Structure#Application Properties|Application Properties]] 에 대하여 설명한 것처럼 말이다. 
 
 
 
@@ -60,7 +60,7 @@ management.endpoints.web.exposure.include=health,info
 # Base path for actuator endpoints
 management.endpoints.web.base-path=/actuator
 ```
-Actuator Properties 에서는 [[Spring Boot Overview#Securing Endpoints - Test Result|Actuator]] 부분에서 본 것처럼, endpoints 를 추가 및 제외하거나 Actuator endpoints 의 base path 를 지정할 수 있다.
+Actuator Properties 에서는 [[🌱 Spring/Principle/0x01. Spring Boot Overview/Spring Boot Actuator#Securing Endpoints - Test Result|Actuator]] 부분에서 본 것처럼, endpoints 를 추가 및 제외하거나 Actuator endpoints 의 base path 를 지정할 수 있다.
 
 ##### Security Properties
 ```properties
