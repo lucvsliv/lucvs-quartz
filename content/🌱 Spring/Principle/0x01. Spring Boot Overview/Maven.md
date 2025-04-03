@@ -25,7 +25,7 @@ Maven 은 Project Management Tool 이다. 더 자세하게 말하면, [[0x01. Sp
 일반적인 Spring project 에서는 따로 개발하는 데에 있어서 기준이 존재하지 않는다. 이는 유지보수 차원에서도 꽤나 큰 영향을 미치지만, 신입 개발자에 있어서 혼동을 초래할 수 있게 된다.
 
 하지만 Maven 을 이용하여 project 를 관리한다면 다음과 같은 Standard 한 directory structure 가 존재하게 된다.
-![[../../../../docs/images/Pasted image 20250322221114.png|300]]
+
 ![[Pasted image 20250322221114.png|300]]
 
 Maven 기반 Spring 프로젝트의 directory structure 를 살펴보자. 기본적으로 Spring Initializr 를 통하여 Project 를 생성한 이후에 IDE 에 이를 Import 하여 살펴보면 위와 같이 나타난다. 대표적인 구조 구성은 다음과 같다.
