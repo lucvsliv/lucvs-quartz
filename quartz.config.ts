@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "<b>🔬 Lucvs Lab.</b>",
+    pageTitle: "🔬 Lucvs Lab.",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -23,7 +23,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Gowun Dodum",
+        header: "Winky Sans",
         body: "Gowun Dodum",
         code: "JetBrains Mono",
       },
@@ -34,7 +34,7 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#3c7748",
+          secondary: "#439a51",
           tertiary: "#6f9e96",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#fff23688",
@@ -45,7 +45,7 @@ const config: QuartzConfig = {
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#3c7748",
+          secondary: "#439a51",
           tertiary: "#5c8e84",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
