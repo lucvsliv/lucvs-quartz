@@ -59,13 +59,13 @@ Spring Initializr 가 자동으로 생성해준 Spring project 의 Main Spring B
 
 ##### Component Scanning Test
 
-![[../../../../docs/images/스크린샷 2025-03-30 09.05.45.png|400]]
+![[images/스크린샷 2025-03-30 09.05.45.png|400]]
 
 위에서 `@ComponentScan` 을 통한 Component Scanning 은 기본적으로 Main Spring Boot Application 이 존재하는 package 에만 국한된다고 말했다. 그러나 현재 위의 상황에서는, `com.lucvs.util` 이라는 다른 package 에만 `@Component` annotation 이 사용된 class 들이 존재하고 있다.
 
 이론적으로는 안 된다는 것을 알지만, 한번 Application 을 실행해보면 어떻게 될까?
 
-![[../../../../docs/images/스크린샷 2025-03-30 09.10.31.png]]
+![[images/스크린샷 2025-03-30 09.10.31.png]]
 
 보통 error 는 기분이 좋지 않지만, 의도된 error 를 발생시킬 때에는 약간의 쾌감이 존재한다. 역시나 error 가 발생한 것을 볼 수 있다. error message 를 보면 `com.lucvs.util.Coach` 이라는 type 의 Bean 을 찾을 수 없다고 한다.
 

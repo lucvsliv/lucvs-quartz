@@ -74,10 +74,10 @@ public String check() {
 
 우선 Default Scope 에서는 singleton pattern 을 유지하기 때문에 `true` 로 나올 것이다.
 
-![[../../../../docs/images/스크린샷 2025-04-01 17.23.21.png]]
+![[images/스크린샷 2025-04-01 17.23.21.png]]
 
 예상대로 잘 나온 것을 볼 수 있다. 이번에는 Prototype Scope 로 설정하여 테스트해보자. Prototype 은 Request 마다 새로운 Bean instance 가 생성되므로 `false` 가 나올 것이다.
 
-![[../../../../docs/images/스크린샷 2025-04-01 17.22.52.png]]
+![[images/스크린샷 2025-04-01 17.22.52.png]]
 
 예상대로 `false` 가 잘 나온 것을 볼 수 있다.

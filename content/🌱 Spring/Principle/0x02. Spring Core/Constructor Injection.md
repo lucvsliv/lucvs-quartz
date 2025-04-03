@@ -7,11 +7,11 @@ title: Constructor Injection
 Constructor Injection 은 위에서 설명한대로, constructor 를 이용하는 Injection 방식이다.
 
 
-![[../../../../docs/images/Pasted image 20250330050108.png]]
+![[images/Pasted image 20250330050108.png]]
 
 우선 위의 시나리오를 적용해보기로 하자. 우선 `/dailyworkout` endpoint 에 접근하면, `DemoController` 라는 controller 를 통하여 `Coach` object 의 `getDailyWorkout` method 를 실행하도록 하는 방식이다.
 
-![[../../../../docs/images/Pasted image 20250330052248.png|450]]
+![[images/Pasted image 20250330052248.png|450]]
 
 `Coach` object 는 Dependency Injection 을 위하여 Interface 로 만들고, 이를 각각의 class 가 implements 하는 식으로 구성하면 [[DIP(Dependecy Inversion Principle)|DIP]] 도 만족할 것이다.
 

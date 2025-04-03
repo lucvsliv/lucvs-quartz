@@ -7,7 +7,7 @@ title: Dependency Injection
 ##### Dependency Injection
 우선 Dependecy Injection 이라고 하는 것은 [[DIP(Dependecy Inversion Principle)|Depedency Invsersion Principle]] 을 기반으로 한다.
 
-![[../../../../docs/images/Pasted image 20250401185038.png]]
+![[images/Pasted image 20250401185038.png]]
 
 위에서 본 예시처럼, Spring Container 에서 생성되고 관리되는 object 들은 각각의 하위에 또다른 dependency 관계가 존재할 것이다. 예를 들어서, `FootballCoach` 는 수석 코치를, 수석 코치는 막내 코치를 필요로 하기 때문이다.
 

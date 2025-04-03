@@ -4,7 +4,7 @@ updated: 2025-04-03
 dg-publish: true
 title: Bean Lifecycle Methods
 ---
-![[../../../../docs/images/Pasted image 20250401195637.png]]
+![[images/Pasted image 20250401195637.png]]
 
 Spring 에서 일반적인 Bean 의 lifecycle 은 위와 같은 형식이다. 이때, Bean Lifecycle Method 를 사용하여 Bean 이 생성되고 소멸되는 시점에 추가적인 작업을 수행하도록 customize 할 수 있다.
 
@@ -38,14 +38,14 @@ public class FootballCoach implements Coach {
 
 이후 Application 을 실행하고 바로 종료시키게 되면 console 에서 다음과 같은 결과를 확인할 수 있다.
 
-![[../../../../docs/images/스크린샷 2025-04-02 09.32.33.png]]
+![[images/스크린샷 2025-04-02 09.32.33.png]]
 
 먼저, `FootballCoach` 에 대한 Bean instantiated 가 된 이후에, 작성해준 init method 가 실행된 것을 알 수 있으며, Application 을 종료하기 직전에, 작성해준 destroy method 가 실행된 것을 알 수 있다.
 
 ##### ! Special Note for Prototype Scope
 Bean 의 scope 를 Prototype 으로 설정해놓았다면 [[0x02. Spring Core#2. Prototype|여기에서]] 작성된 것처럼, Bean instantiated 다음에 더이상 Spring Container 가 관리하지 않는다. 실제로 Prototype 으로 scope 를 지정하고 test 해보면,
 
-![[../../../../docs/images/스크린샷 2025-04-02 09.39.26.png]]
+![[images/스크린샷 2025-04-02 09.39.26.png]]
 
 과 같이 Bean 을 초기화한 이후에 init method 는 정상적으로 실행이 되었지만, Application 을 종료했음에도 destroy method 는 실행되지 않았음을 알 수 있다. 그렇다면 Prototype 으로 scope 가 지정된 Bean 들의 제어는 초기화 이후에 누가 관리하는 것일까?
 
