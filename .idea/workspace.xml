@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc9c83a1-d214-4044-9eac-6dcf36941fa7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quartz/components/styles/explorer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/components/styles/explorer.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +80,7 @@
       <updated>1743648403646</updated>
       <workItem from="1743648405296" duration="5330000" />
       <workItem from="1743653952640" duration="11053000" />
-      <workItem from="1743671165886" duration="3601000" />
+      <workItem from="1743671165886" duration="3822000" />
     </task>
     <servers />
   </component>
