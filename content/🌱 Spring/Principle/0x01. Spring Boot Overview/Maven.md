@@ -8,7 +8,7 @@ title: Maven
 Maven 은 Project Management Tool 이다. 더 자세하게 말하면, [[0x01. Spring Boot Quick Start#Maven]] 에서 설명한 것과 같이 개발자들이 프로젝트에 사용되는 JAR 파일 관리를 용이하게 할 수 있도록 도와주는 도구이다.
 
 아래 그림은 Maven 이 동작하는 과정을 설명하고 있다.
-![[docs/images/Pasted image 20250322165211.png]]
+![[./docs/images/Pasted image 20250322165211.png]]
 1. Maven 은 프로젝트 의 config 파일을 읽고, 어떤 JAR 파일을 필요로 하는지 확인
 2. 우선적으로, 개발자의 local repository 를 확인하여 해당 JAR 파일이 있는지 확인
 3. 만약에 local 에 없다면, Internet 환경에 존재하는 Maven Central Repository 에서 다운로드
@@ -25,7 +25,7 @@ Maven 은 Project Management Tool 이다. 더 자세하게 말하면, [[0x01. Sp
 
 하지만 Maven 을 이용하여 project 를 관리한다면 다음과 같은 Standard 한 directory structure 가 존재하게 된다.
 
-![[docs/images/Pasted image 20250322221114.png|300]]
+![[./docs/images/Pasted image 20250322221114.png|300]]
 
 Maven 기반 Spring 프로젝트의 directory structure 를 살펴보자. 기본적으로 Spring Initializr 를 통하여 Project 를 생성한 이후에 IDE 에 이를 Import 하여 살펴보면 위와 같이 나타난다. 대표적인 구조 구성은 다음과 같다.
 
