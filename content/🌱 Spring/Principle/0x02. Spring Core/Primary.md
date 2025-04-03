@@ -1,0 +1,31 @@
+---
+created: 2025-04-03
+updated: 2025-04-03
+dg-publish: true
+title: Primary
+---
+## Primary
+interface 에 대하여 mutiple 한 implementation 이 있을 때, 앞에서 `@Qualifier` annotation 을 이용하여 해결했다. 그러나 `@Primary` 라는 annotation 을 사용해서도 해결이 가능하다.
+
+`@Primary` annotation 은 multiple implementation 가운데 단 하나만 사용할 수 있으며, 마치 default Bean 으로써 기능한다. `@Qualifier` 를 사용하여 특정 Bean object 를 지정하지 않더라도 Primary 로 지정된 Bean 이 Injection 된다.
+
+그러나 만약 `@Qualifier` 와 `@Primary` 를 둘 다 사용하게 될 경우, `@Qualifier` 가 더 높은 priority 를 가지기 때문에 `@Qualifier` 만을 단독적으로 사용하는 것을 추천한다. 또한 mutiple Primary 역시 오류를 발생시킨다.
+
+##### Primary - Code
+우선 Primary 로 지정하고 싶은 class 에 대하여 `@Primary` annotation 을 사용해주면 된다.
+
+```java
+@Component  
+@Primary  
+public class FootballCoach implements Coach { ... }
+```
+
+그리고 Controller 의 Constructor Injection 에서는 아래처럼 implementation 이 하나밖에 존재하지 않는 것처럼 사용해주면 된다.
+
+```java
+// define a constructor for dependency injection  
+@Autowired  
+public DemoController(Coach theCoach) {  
+    myCoach = theCoach;  
+}
+```

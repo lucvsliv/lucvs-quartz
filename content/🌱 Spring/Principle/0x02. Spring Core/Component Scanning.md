@@ -1,0 +1,73 @@
+---
+created: 2025-04-03
+updated: 2025-04-03
+dg-publish: true
+title: Component Scanning
+---
+## Component Scanning
+Spring 은 `@Component` 등과 같은 특별한 annotation 들에 대하여 scan 을 수행한다. 이후 자동으로 Spring Container 에 이들을 Bean 으로 등록된다.
+
+더 내부적으로 들어가보자. Spring Framework 의 누가 scan 을 수행하는 것인가? 그리고 누가 Bean 으로 등록하는 것인가?
+
+##### SpringBootApplication
+![[스크린샷 2025-03-30 06.37.08.png]]
+
+Spring Initializr 가 자동으로 생성해준 Spring project 의 Main Spring Boot Application class 코드를 살펴보면 위쪽에 `@SpringBootApplication` annotation 을 사용하였고, 이를 사용하기 위하여 해당 package 가 import 된 것을 알 수 있다. 
+
+![[Pasted image 20250330063001.png]]
+
+내부 구현으로 들어가보면, `@SpringBootApplication` annotation 은 위와 같이 `@EnableAutoConfiguration`, `@ComponentScan`, `@Configuration` 이 포함되어 있는 것을 볼 수 있다. 각각의 기능은 다음과 같다.
+
+> - `@EnableAutoConfiguration` : Spring Boot에서 classpath 에 있는 라이브러리를 기반으로 필요한 설정을 자동으로 구성
+> - `@ComponentScan` : 지정된 package 와 하위 package 를 스캔하여 `@Component`, `@Service`, `@Controller`, `@Repository` 등과 같은 annotation 이 붙은 class 를 자동으로 Bean Definition 에 등록
+> - `@Configuration` : `@Bean` annotation 을 통하여 extra Beans 를 등록하는 Bean 정의 class 임을 나타냄
+
+##### SpringApplication
+이번에는 `SpringBootApplication` 위에 import 된 `SpringApplication` 이다.
+
+`SpringApplication` 의 `SpringApplication.run()` 은 Spring Boot Application 의 Bootstrap 을 수행한다. 여기서 Bootstrap 은 application 을 실행 가능한 상태로 만드는 초기화 및 준비 과정을 의미한다.
+
+그럼 Bootstrap 과정을 순서대로 살펴보자.
+
+1. **SpringApplication.run() 실행**
+2. **SpringApplication 객체 생성**
+	- SpringApplication 객체를 초기화하고 classpath 에서 servlet 관련 library 를 확인, servlet libraryt 가 존재하면 웹 app, 없으면 비웹 app 인지를 감지
+3. **환경 설정 및 프로파일 적용**
+	- `application.properties` 파일을 읽어 환경 변수와 프로파일을 설정
+	- `ApplicationEnvironmentPreparedEvent`를 발생시켜 환경이 준비되었음을 알림
+4. **배너 출력**
+	- Spring Boot 배너(기본 ASCII 아트)를 콘솔에 출력하여 application 시작을 알림
+5. **ApplicationContext 생성 및 초기화**
+	- ApplicationContext 생성
+		- 웹/비웹 app 인지에 따라서 Spring IoC Container 인 `AnnotationConfigApplicationContext` 또는 `AnnotationConfigServletWebServerApplicationContext` 를 생성
+	- Bean definition 등록 (Component Scan)
+		- `@ComponentScan`에 의해 classpath 에서 스캔된 클래스(`@Component`, `@Service`, `@Controller`, `@Repository`) 를 Bean definition 으로 등록
+		- 실제 스캔 작업은 `ClassPathBeanDefinitionScanner`가 수행하며, Bean definition 은 context 내부의 Bean Factory 에 저장
+		- default 로는 Main Spring Boot application 이 존재하는 package 에만 scan 범위가 국한되지만, `@SpringBootApplication( scanBasePackages={ ... } )` 를 통하여 추가 가능
+6. **Auto-Configuration**
+    - `@SpringBootApplication` 의 `@EnableAutoConfiguration` 에 의해 classpath 의 library 를 감지하고, 필요한 Bean 과 설정을 자동으로 추가 (데이터베이스 설정, 웹 서버 설정 등)
+7. **빈 인스턴스화 및 의존성 주입**:
+    - ApplicationContext는 등록된 Bean definition 을 기반으로 실제 Bean object 를 생성
+    - DI 를 통해 Bean 간의 관계를 설정
+8. **내장 웹 서버 시작 (웹 애플리케이션)**
+    - classpath 에 웹 관련 library 가 있으면 내장 Tomcat 등의 웹서버를 시작
+    - HTTP 요청을 처리할 준비를 완료
+9. **애플리케이션 실행 준비 완료**
+
+지금까지 나온 내용을 중심으로 요약하면 다음과 같은 순서로 진행된다.
+
+> SpringApplication 생성 > ApplicationContext 생성 > Component Scan > Bean Definition 등록 > Bean 생성
+
+##### Component Scanning Test
+
+![[스크린샷 2025-03-30 09.05.45.png|400]]
+
+위에서 `@ComponentScan` 을 통한 Component Scanning 은 기본적으로 Main Spring Boot Application 이 존재하는 package 에만 국한된다고 말했다. 그러나 현재 위의 상황에서는, `com.lucvs.util` 이라는 다른 package 에만 `@Component` annotation 이 사용된 class 들이 존재하고 있다.
+
+이론적으로는 안 된다는 것을 알지만, 한번 Application 을 실행해보면 어떻게 될까?
+
+![[스크린샷 2025-03-30 09.10.31.png]]
+
+보통 error 는 기분이 좋지 않지만, 의도된 error 를 발생시킬 때에는 약간의 쾌감이 존재한다. 역시나 error 가 발생한 것을 볼 수 있다. error message 를 보면 `com.lucvs.util.Coach` 이라는 type 의 Bean 을 찾을 수 없다고 한다.
+
+따라서, `@SpringBootApplication` annotation 에 explicit 하게 base package 들을 listing 해주어야 한다.
