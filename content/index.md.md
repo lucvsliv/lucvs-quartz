@@ -6,13 +6,5 @@ dg-publish: true
 title: Home
 permalink: /
 ---
-<div style="font-family: monospace; white-space: pre; animation: move 2s infinite;">
-  (•_•)   ( •_•)>⌐■-■   (⌐■_■)
-</div>
 
-<style>
-@keyframes move {
-  from { transform: translateX(0); }
-  to { transform: translateX(100px); }
-}
-</style>
+# Test
