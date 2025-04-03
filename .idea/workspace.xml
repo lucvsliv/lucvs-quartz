@@ -7,21 +7,7 @@
     <list default="true" id="dc9c83a1-d214-4044-9eac-6dcf36941fa7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ Spring/Principle/0x01. Spring Boot Overview/Maven.md" beforePathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x01. Spring Boot Overview/Maven.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/ Spring/Principle/0x01. Spring Boot Overview/Maven.md" afterPathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x01. Spring Boot Overview/Maven.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/custom-social-image-preview-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/custom-social-image-preview-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/dns records.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/giscus-discussion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/giscus-example.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/giscus-repo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/giscus-results.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/github-init-repo-options.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/github-quick-setup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/quartz transform pipeline.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/quartz-layout-desktop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/quartz-layout-mobile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/quartz-layout-tablet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/social-image-preview-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/social-image-preview-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ Spring/Principle/Pasted image 20250322165211.png" beforePathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/Pasted image 20250322165211.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743648403646</updated>
       <workItem from="1743648405296" duration="5330000" />
-      <workItem from="1743653952640" duration="5649000" />
+      <workItem from="1743653952640" duration="6390000" />
     </task>
     <servers />
   </component>
