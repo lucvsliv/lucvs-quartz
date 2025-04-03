@@ -9,11 +9,11 @@ Spring 은 `@Component` 등과 같은 특별한 annotation 들에 대하여 scan
 더 내부적으로 들어가보자. Spring Framework 의 누가 scan 을 수행하는 것인가? 그리고 누가 Bean 으로 등록하는 것인가?
 
 ##### SpringBootApplication
-![[스크린샷 2025-03-30 06.37.08.png]]
+![[../../../../docs/images/스크린샷 2025-03-30 06.37.08.png]]
 
 Spring Initializr 가 자동으로 생성해준 Spring project 의 Main Spring Boot Application class 코드를 살펴보면 위쪽에 `@SpringBootApplication` annotation 을 사용하였고, 이를 사용하기 위하여 해당 package 가 import 된 것을 알 수 있다. 
 
-![[Pasted image 20250330063001.png]]
+![[../../../../docs/images/Pasted image 20250330063001.png]]
 
 내부 구현으로 들어가보면, `@SpringBootApplication` annotation 은 위와 같이 `@EnableAutoConfiguration`, `@ComponentScan`, `@Configuration` 이 포함되어 있는 것을 볼 수 있다. 각각의 기능은 다음과 같다.
 
@@ -59,13 +59,13 @@ Spring Initializr 가 자동으로 생성해준 Spring project 의 Main Spring B
 
 ##### Component Scanning Test
 
-![[스크린샷 2025-03-30 09.05.45.png|400]]
+![[../../../../docs/images/스크린샷 2025-03-30 09.05.45.png|400]]
 
 위에서 `@ComponentScan` 을 통한 Component Scanning 은 기본적으로 Main Spring Boot Application 이 존재하는 package 에만 국한된다고 말했다. 그러나 현재 위의 상황에서는, `com.lucvs.util` 이라는 다른 package 에만 `@Component` annotation 이 사용된 class 들이 존재하고 있다.
 
 이론적으로는 안 된다는 것을 알지만, 한번 Application 을 실행해보면 어떻게 될까?
 
-![[스크린샷 2025-03-30 09.10.31.png]]
+![[../../../../docs/images/스크린샷 2025-03-30 09.10.31.png]]
 
 보통 error 는 기분이 좋지 않지만, 의도된 error 를 발생시킬 때에는 약간의 쾌감이 존재한다. 역시나 error 가 발생한 것을 볼 수 있다. error message 를 보면 `com.lucvs.util.Coach` 이라는 type 의 Bean 을 찾을 수 없다고 한다.
 

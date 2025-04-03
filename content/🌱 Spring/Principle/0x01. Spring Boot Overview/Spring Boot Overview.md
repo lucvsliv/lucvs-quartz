@@ -33,14 +33,14 @@ Spring Boot 는, 간단하게 말하면 Spring 을 기반으로 한 확장된 fr
 
 
 ##### Spring Boot Embedded Server
-![[Pasted image 20250321172918.png|250]]
+![[../../../../docs/images/Pasted image 20250321172918.png|250]]
 Spring Boot 는 내장된 HTTP Server 를 제공하기 때문에 별도로 다른 서버를 설치할 필요가 없다. 위 그림과 같이 JAR 파일에는 application code 뿐만이 아니라 서버도 포함되어 있는 것이다. 
 
 ##### Running Spring Boot Apps
 기본적으로 Spring Boot Apps 는 JAR 파일의 형식으로 생산되기 때문에 IDE 에서 실행하거나 CLI 환경에서 명령어 입력을 통하여 Standalone-fashion 으로 실행할 수 있다.
 
 ##### Deploying Spring Boot Apps
-![[Pasted image 20250321173136.png|400]]
+![[../../../../docs/images/Pasted image 20250321173136.png|400]]
 Spring Boot Apps 는 전통적인 방법으로 외부 서버에 WAR 파일의 형식으로 배포할 수도 있다.
 
 

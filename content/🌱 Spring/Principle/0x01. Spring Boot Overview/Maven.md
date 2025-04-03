@@ -25,7 +25,7 @@ Maven 은 Project Management Tool 이다. 더 자세하게 말하면, [[0x01. Sp
 
 하지만 Maven 을 이용하여 project 를 관리한다면 다음과 같은 Standard 한 directory structure 가 존재하게 된다.
 
-![[Pasted image 20250322221114.png|300]]
+![[../../../../docs/images/Pasted image 20250322221114.png|300]]
 
 Maven 기반 Spring 프로젝트의 directory structure 를 살펴보자. 기본적으로 Spring Initializr 를 통하여 Project 를 생성한 이후에 IDE 에 이를 Import 하여 살펴보면 위와 같이 나타난다. 대표적인 구조 구성은 다음과 같다.
 
@@ -44,7 +44,7 @@ Maven 기반 Spring 프로젝트의 directory structure 를 살펴보자. 기본
 Project Object Model file 로, Spring project 에 대한 설정 파일이다. 앞서 말했듯이, 이 파일에 원하는 쇼핑 목록, 즉 원하는 라이브러리를 입력해주면 Maven 이 local 이 됐건, remote 가 됐건 알아서 모든 환경 설정을 대신 관리해준다. 또한 POM 파일은 언제나 project 의 root directory 에 위치한다.
 
 POM 파일의 구조를 살펴보자.
-![[Pasted image 20250322234918.png|300]]
+![[../../../../docs/images/Pasted image 20250322234918.png|300]]
 `project metadata` 부분에는 프로젝트의 이름, 버전 등이 포함되어 있고, 프로젝트의 output file 이 JAR type 인지, WAR type 인지 등으로 구성되어 있다.
 
 `dependencies` 부분에서는 프로젝트가 의존하는 다른 project 의 목록이 포함되어 있다. 우리가 Maven 을 사용하는 가장 주목적인 부분이라고 할 수 있다.
@@ -85,6 +85,3 @@ POM 파일에 사용하고자 하는 dependency 를 추가하기 위하여, 즉 
 project coordinates 와 마찬가지로, 원하는 dependency 의 `groupId` 와 `artifactId` 를 명시적으로 지정해줘야 한다. `version` 은 optional 의 영역이기는 하나, DevOps 를 실현하기 위하여는 포함시키는 것이 바람직하다. 외부에서 해당 프로젝트의 명세를 "GAV 가 어떻게 되나요?" 라는 식으로 질문하기 때문에 Version 역시 포함시키는 것이 좋다. 아니, 해야한다고 생각한다.
 
 dependecy 들의 Coordinates 들은 직접 해당 사이트에 들어가서 찾을 수 있겠지만, 대부분 [Maven Central Repository](https://central.sonatype.com/) 에서 쉽게 이들의 Coordinates 들을 얻을 수 있다.
-
-
-![[스크린샷 2025-04-03 10.49.10.png]]

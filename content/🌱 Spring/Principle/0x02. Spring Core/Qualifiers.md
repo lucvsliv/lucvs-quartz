@@ -14,7 +14,7 @@ title: Qualifiers
 ##### Qualifiers - Test
 우선 Qualifier 를 사용하지 않고 `@Component` annotation 을 사용하여 추가적인 Bean 을 생성한 이후에 Application 을 실행해보면 다음과 같다. 참고로 Injection 방식을 Constructor Injection 으로 설정하였다.
 
-![[스크린샷 2025-04-01 09.39.02.png]]
+![[../../../../docs/images/스크린샷 2025-04-01 09.39.02.png]]
 
 보면 single bean 이 요구되지만 4개가 발견되었다고 한다. 역시 의도대로 나온 오류이다.
 
