@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc9c83a1-d214-4044-9eac-6dcf36941fa7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ Spring/Principle/0x01. Spring Boot Overview/Maven.md" beforePathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x01. Spring Boot Overview/Maven.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/ Spring/Principle/0x01. Spring Boot Overview/Maven.md" afterPathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x01. Spring Boot Overview/Maven.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743648403646</updated>
       <workItem from="1743648405296" duration="5330000" />
-      <workItem from="1743653952640" duration="6716000" />
+      <workItem from="1743653952640" duration="6904000" />
     </task>
     <servers />
   </component>
