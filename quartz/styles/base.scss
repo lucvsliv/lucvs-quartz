@@ -85,7 +85,7 @@ strong {
 }
 
 a {
-  font-weight: $semiBoldWeight;
+  font-weight: bold;
   text-decoration: none;
   transition: color 0.2s ease;
   color: var(--secondary);
@@ -100,7 +100,6 @@ a {
     padding: 0 0.1rem;
     border-radius: 5px;
     line-height: 1.4rem;
-    font-weight: bold;
 
     &:has(> img) {
       background-color: transparent;
