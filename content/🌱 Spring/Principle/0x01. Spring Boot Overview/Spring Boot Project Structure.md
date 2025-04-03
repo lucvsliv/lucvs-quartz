@@ -14,7 +14,7 @@ title: Spring Boot Project Structure
 directory 를 보면 `mvnw.sh` 와 `mvnw.cmd` 두 개의 wrapper 가 존재하는데, 하나는 Linux/Mac 환경에서 사용되는 shell script 형식의 파일이고, 다른 하나는 Windows 환경에서 실행할 수 있는 파일이다.
 
 ##### Application Properties
-Spring Boot 프로젝트에서 **`application.properties`** 파일은 애플리케이션의 다양한 설정을 관리한다. 이 파일은 애플리케이션 실행 시 자동으로 로드되며, Spring Initializr 로부터 자동으로 생성된다.
+Spring Boot 프로젝트에서 `application.properties` 파일은 애플리케이션의 다양한 설정을 관리한다. 이 파일은 애플리케이션 실행 시 자동으로 로드되며, Spring Initializr 로부터 자동으로 생성된다.
 
 ![[images/스크린샷 2025-03-24 00.35.21.png|300]]
 

@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc9c83a1-d214-4044-9eac-6dcf36941fa7" name="Changes" comment="" />
+    <list default="true" id="dc9c83a1-d214-4044-9eac-6dcf36941fa7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ Spring/Principle/0x01. Spring Boot Overview/Spring Boot Dev Tools.md" beforePathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x01. Spring Boot Overview/Spring Boot Dev Tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/ Spring/Principle/0x01. Spring Boot Overview/Spring Boot Dev Tools.md" afterPathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x01. Spring Boot Overview/Spring Boot Dev Tools.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ Spring/Principle/0x01. Spring Boot Overview/Spring Boot Project Structure.md" beforePathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x01. Spring Boot Overview/Spring Boot Project Structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/ Spring/Principle/0x01. Spring Boot Overview/Spring Boot Project Structure.md" afterPathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x01. Spring Boot Overview/Spring Boot Project Structure.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ Spring/Principle/0x01. Spring Boot Overview/Spring Boot Properties.md" beforePathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x01. Spring Boot Overview/Spring Boot Properties.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/ Spring/Principle/0x01. Spring Boot Overview/Spring Boot Properties.md" afterPathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x01. Spring Boot Overview/Spring Boot Properties.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ Spring/Principle/0x02. Spring Core/Bean Lifecycle Methods.md" beforePathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x02. Spring Core/Bean Lifecycle Methods.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/ Spring/Principle/0x02. Spring Core/Bean Lifecycle Methods.md" afterPathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x02. Spring Core/Bean Lifecycle Methods.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ Spring/Principle/0x02. Spring Core/Constructor Injection.md" beforePathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x02. Spring Core/Constructor Injection.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/ Spring/Principle/0x02. Spring Core/Constructor Injection.md" afterPathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x02. Spring Core/Constructor Injection.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743648403646</updated>
       <workItem from="1743648405296" duration="5330000" />
-      <workItem from="1743653952640" duration="10421000" />
+      <workItem from="1743653952640" duration="10885000" />
     </task>
     <servers />
   </component>
