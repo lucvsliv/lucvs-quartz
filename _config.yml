@@ -1,2 +1,4 @@
 exclude:
   - content/images
+plugins:
+  - jekyll-include-cache
