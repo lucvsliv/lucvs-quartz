@@ -23,7 +23,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Gowun Dodum",
+        header: "Playfair Display",
         body: "Playfair Display",
         code: "JetBrains Mono",
       },
