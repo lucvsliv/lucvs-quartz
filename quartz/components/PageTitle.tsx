@@ -17,7 +17,7 @@ PageTitle.css = `
 .page-title {
   font-weight: bold;
   color: #109872;
-  font-size: 2.50rem;
+  font-size: 3.00rem;
   margin: 0;
 }
 `

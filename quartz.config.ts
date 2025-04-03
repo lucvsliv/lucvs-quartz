@@ -24,7 +24,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Gowun Dodum",
-        body: "Gowun Dodum",
+        body: "Playfair Display",
         code: "JetBrains Mono",
       },
       colors: {
@@ -35,7 +35,7 @@ const config: QuartzConfig = {
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
           secondary: "#439a51",
-          tertiary: "#7cd1a6",
+          tertiary: "#69b890",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#fff23688",
           third: "#12af7f"
