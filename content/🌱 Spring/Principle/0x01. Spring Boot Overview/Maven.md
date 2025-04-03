@@ -9,11 +9,11 @@ Maven 은 Project Management Tool 이다. 더 자세하게 말하면, [[0x01. Sp
 
 아래 그림은 Maven 이 동작하는 과정을 설명하고 있다.
 
-<img src="../../../../docs/images/Pasted-image-20250322165211.png" style="width:700px; height:auto;">
+<img src="../../../../docs/images/20250322165211.png" style="width:700px; height:auto;">
 
-<img src="../Pasted image 20250322165211.png" style="width:700px; height:auto;">
+<img src="../20250322165211.png" style="width:700px; height:auto;">
 
-<img src="Pasted image 20250322165211.png" style="width:700px; height:auto;">
+<img src="20250322165211.png" style="width:700px; height:auto;">
 
 1. Maven 은 프로젝트 의 config 파일을 읽고, 어떤 JAR 파일을 필요로 하는지 확인
 2. 우선적으로, 개발자의 local repository 를 확인하여 해당 JAR 파일이 있는지 확인
