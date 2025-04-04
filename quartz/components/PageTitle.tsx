@@ -32,10 +32,6 @@ PageTitle.css = `
   transition: font-size 0.2s ease, text-shadow 0.3s ease;
 }
 
-.page-title a:hover {
-  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff22, 0 0 30px #00ff44, 0 0 50px #00ff66;
-}
-
 @keyframes flicker {
   0% { 
     opacity: 1; 
