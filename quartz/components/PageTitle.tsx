@@ -21,7 +21,7 @@ PageTitle.css = `
   margin: 0;
 }
 .page-title a {
-  font-family: 'Cormorant', serif;
+  font-family: 'Cormorant', Times;
   font-weight: bold;
   color: var(--dark);
   text-decoration-color: #58c374;
