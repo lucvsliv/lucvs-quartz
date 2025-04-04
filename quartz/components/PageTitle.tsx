@@ -34,21 +34,21 @@ PageTitle.css = `
 
 .page-title a:hover {
   font-size: 3.3rem;
-  text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffff, 0 0 30px #00ffaa, 0 0 50px #00ff99;
+  text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffff, 0 0 15px #00ffaa, 0 0 20px #00ff99;
 }
 
 @keyframes flicker {
   0% { 
     opacity: 1; 
-    text-shadow: 0 0 5px #00ffaa, 0 0 10px #00ddff, 0 0 20px #0099ff, 0 0 40px #0066ff;
+    text-shadow: 0 0 3px #00ffaa, 0 0 6px #00ddff, 0 0 9px #0099ff, 0 0 12px #0066ff;
   }
   50% { 
     opacity: 0.8; 
-    text-shadow: 0 0 5px #00ddff, 0 0 10px #00ffaa, 0 0 30px #00ff99, 0 0 50px #00ff66;
+    text-shadow: 0 0 3px #00ddff, 0 0 6px #00ffaa, 0 0 9px #00ff99, 0 0 12px #00ff66;
   }
   100% { 
     opacity: 1; 
-    text-shadow: 0 0 10px #00ff99, 0 0 20px #00ffaa, 0 0 40px #00ffcc, 0 0 60px #00ffff;
+    text-shadow: 0 0 5px #00ff99, 0 0 10px #00ffaa, 0 0 15px #00ffcc, 0 0 20px #00ffff;
   }
 }
 `
