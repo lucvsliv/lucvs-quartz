@@ -29,11 +29,11 @@ PageTitle.css = `
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
-  transition: text-shadow 0.3s ease-out;
+  transition: font-size 0.2s ease, text-shadow 0.3s ease;
 }
 
 .page-title a:hover {
-  animation: bounce-up 0.6s ease-out, flicker 2s infinite alternate;
+  font-size: 3.3rem;
   text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffff, 0 0 30px #00ffaa, 0 0 50px #00ff99;
 }
 
@@ -50,13 +50,6 @@ PageTitle.css = `
     opacity: 1; 
     text-shadow: 0 0 10px #00ff99, 0 0 20px #00ffaa, 0 0 40px #00ffcc, 0 0 60px #00ffff;
   }
-}
-
-@keyframes bounce-up {
-  0%   { transform: translateY(0); }
-  30%  { transform: translateY(-10px); }
-  60%  { transform: translateY(-5px); }
-  100% { transform: translateY(0); }
 }
 `
 
