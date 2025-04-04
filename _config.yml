@@ -1,2 +1,5 @@
 exclude:
   - content/images
+
+include:
+  - assets/css/custom.css
