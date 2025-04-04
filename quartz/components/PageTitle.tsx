@@ -26,7 +26,7 @@ PageTitle.css = `
 .page-title-link {
   cursor: pointer;
   text-decoration: none;
-  color: inherit;
+  color: var(--dark);
 }
 `
 
