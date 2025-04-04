@@ -28,12 +28,12 @@ PageTitle.css = `
   background: linear-gradient(45deg, #00ffaa, #00ddff, #0099ff, #0066ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: inline-block; /* 애니메이션 적용을 위해 블록 요소로 설정 */
-  transition: transform 0.3s ease-out, text-shadow 0.3s ease-out;
+  display: inline-block;
+  transition: text-shadow 0.3s ease-out;
 }
 
 .page-title a:hover {
-  transform: translateY(-5px); /* 살짝 위로 떠오르는 효과 */
+  animation: bounce-up 0.6s ease-out, flicker 2s infinite alternate;
   text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffff, 0 0 30px #00ffaa, 0 0 50px #00ff99;
 }
 
@@ -50,6 +50,13 @@ PageTitle.css = `
     opacity: 1; 
     text-shadow: 0 0 10px #00ff99, 0 0 20px #00ffaa, 0 0 40px #00ffcc, 0 0 60px #00ffff;
   }
+}
+
+@keyframes bounce-up {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-10px); }
+  60%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
 }
 `
 
