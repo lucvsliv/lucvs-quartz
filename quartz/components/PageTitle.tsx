@@ -22,14 +22,34 @@ PageTitle.css = `
   font-size: 3.2rem;
   margin: 0;
   font-family: fantasy;
-  color: #0ff;
-  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #00f, 0 0 40px #00f;
-  animation: shake 0.5s infinite alternate;
+  color: #00ffaa;
+  text-shadow: 0 0 5px #00ffaa, 0 0 10px #00ddff, 0 0 20px #0099ff, 0 0 40px #0066ff;
+  animation: flicker 2s infinite alternate;
+  background: linear-gradient(45deg, #00ffaa, #00ddff, #0099ff, #0066ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block; /* 애니메이션 적용을 위해 블록 요소로 설정 */
+  transition: transform 0.3s ease-out, text-shadow 0.3s ease-out;
 }
 
-@keyframes shake {
-  0% { transform: rotate(-3deg) translateX(-3px); }
-  100% { transform: rotate(3deg) translateX(3px); }
+.page-title a:hover {
+  transform: translateY(-5px); /* 살짝 위로 떠오르는 효과 */
+  text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffff, 0 0 30px #00ffaa, 0 0 50px #00ff99;
+}
+
+@keyframes flicker {
+  0% { 
+    opacity: 1; 
+    text-shadow: 0 0 5px #00ffaa, 0 0 10px #00ddff, 0 0 20px #0099ff, 0 0 40px #0066ff;
+  }
+  50% { 
+    opacity: 0.8; 
+    text-shadow: 0 0 5px #00ddff, 0 0 10px #00ffaa, 0 0 30px #00ff99, 0 0 50px #00ff66;
+  }
+  100% { 
+    opacity: 1; 
+    text-shadow: 0 0 10px #00ff99, 0 0 20px #00ffaa, 0 0 40px #00ffcc, 0 0 60px #00ffff;
+  }
 }
 `
 
