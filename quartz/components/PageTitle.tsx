@@ -17,16 +17,18 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
 
 PageTitle.css = `
 .page-title {
-  font-size: 3.20rem;
+  font-size: 3.2rem;
   margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #00f, 0 0 40px #00f;
+  animation: flicker 2s infinite alternate;
 }
-.page-title a {
-  font-family: fantasy;
-  font-weight: 100;
-  color: var(--dark);
-  text-decoration-color: #58c374;
-  text-decoration-line: underline;
-  text-decoration-thickness: 2px;
+
+@keyframes flicker {
+  0% { opacity: 1; text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #00f; }
+  50% { opacity: 0.8; text-shadow: 0 0 5px #0ff, 0 0 10px #00f, 0 0 30px #00f; }
+  100% { opacity: 1; text-shadow: 0 0 10px #0ff, 0 0 20px #00f, 0 0 40px #00f; }
 }
 `
 
