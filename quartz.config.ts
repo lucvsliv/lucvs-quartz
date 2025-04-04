@@ -23,7 +23,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: fantasy,
+        header: "Gowun Batang",
         body: "Gowun Batang",
         code: "JetBrains Mono",
       },
