@@ -16,20 +16,18 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
 }
 
 PageTitle.css = `
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 .page-title {
-  font-family: 'Roboto', sans-serif; /* 구글 폰트 적용 */
+  font-family: "Quintessential"
   font-weight: bold;
   color: var(--dark);
   font-size: 3.30rem;
   margin: 0;
 }
-
 .page-title a {
   text-decoration: none;
   color: inherit;
 }
 `
+
 
 export default (() => PageTitle) satisfies QuartzComponentConstructor
