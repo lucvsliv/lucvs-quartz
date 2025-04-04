@@ -21,11 +21,12 @@ PageTitle.css = `
   margin: 0;
 }
 .page-title a {
-  font-family: Cormorant;
+  font-family: 'Cormorant', serif;
   font-weight: bold;
   color: var(--dark);
-  text-decoration: none;
-  color: inherit;
+  text-decoration-color: #58c374;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
 }
 `
 
