@@ -22,11 +22,11 @@ PageTitle.css = `
 }
 .page-title a {
   font-family: 'Cormorant', Times;
-  font-weight: bold;
+  font-weight: 300;
   color: var(--dark);
   text-decoration-color: #58c374;
   text-decoration-line: underline;
-  text-decoration-style: wavy;
+  text-decoration-thickness: 2px;
 }
 `
 
