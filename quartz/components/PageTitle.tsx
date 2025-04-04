@@ -21,7 +21,7 @@ PageTitle.css = `
   margin: 0;
 }
 .page-title a {
-  font-family: "Quintessential";
+  font-family: Cormorant;
   font-weight: bold;
   color: var(--dark);
   text-decoration: none;
