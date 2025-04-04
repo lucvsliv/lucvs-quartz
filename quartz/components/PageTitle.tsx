@@ -17,12 +17,12 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
 
 PageTitle.css = `
 .page-title {
-  font-size: 3.30rem;
+  font-size: 3.20rem;
   margin: 0;
 }
 .page-title a {
-  font-family: 'Cormorant', Times;
-  font-weight: 300;
+  font-family: fantasy;
+  font-weight: 100;
   color: var(--dark);
   text-decoration-color: #58c374;
   text-decoration-line: underline;
