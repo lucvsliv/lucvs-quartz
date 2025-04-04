@@ -21,16 +21,15 @@ PageTitle.css = `
 .page-title a {
   font-size: 3.2rem;
   margin: 0;
-  font-family: 'Orbitron', sans-serif;
+  font-family: fantasy;
   color: #0ff;
   text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #00f, 0 0 40px #00f;
-  animation: flicker 2s infinite alternate;
+  animation: shake 0.5s infinite alternate;
 }
 
-@keyframes flicker {
-  0% { opacity: 1; text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #00f; }
-  50% { opacity: 0.8; text-shadow: 0 0 5px #0ff, 0 0 10px #00f, 0 0 30px #00f; }
-  100% { opacity: 1; text-shadow: 0 0 10px #0ff, 0 0 20px #00f, 0 0 40px #00f; }
+@keyframes shake {
+  0% { transform: rotate(-3deg) translateX(-3px); }
+  100% { transform: rotate(3deg) translateX(3px); }
 }
 `
 
