@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dc9c83a1-d214-4044-9eac-6dcf36941fa7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ Spring/Principle/0x01. Spring Boot Overview/Maven.md" beforePathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x01. Spring Boot Overview/Maven.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/ Spring/Principle/0x01. Spring Boot Overview/Maven.md" afterPathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x01. Spring Boot Overview/Maven.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/lucvs/Downloads/git/lucvs-quartz/node_modules/prettier",
     "ts.external.directory.path": "/Users/lucvs/Downloads/git/lucvs-quartz/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -82,7 +84,7 @@
       <workItem from="1743653952640" duration="11053000" />
       <workItem from="1743671165886" duration="8790000" />
       <workItem from="1743727128879" duration="5129000" />
-      <workItem from="1743743445742" duration="529000" />
+      <workItem from="1743743445742" duration="2425000" />
     </task>
     <servers />
   </component>
