@@ -70,3 +70,6 @@ CREATE TABLE `student` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 ```
 
+해당 script 를 실행하면 다음과 같이 성공적으로 database 와 table 이 생성된 것을 볼 수 있다.
+
+![[images/스크린샷 2025-04-06 12.54.27.png]]
