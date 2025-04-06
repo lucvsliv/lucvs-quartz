@@ -88,15 +88,15 @@ a {
   font-weight: 100;
   text-decoration: none;
   transition: color 0.2s ease;
-  color: var(--third);
+  color: var(--tertiary);
 
   &:hover {
     color: var(--tertiary) !important;
   }
 
   &.internal {
+    font-weight: bold;
     text-decoration: none;
-    background-color: var(--highlight);
     padding: 0 0.1rem;
     border-radius: 5px;
     line-height: 1.4rem;

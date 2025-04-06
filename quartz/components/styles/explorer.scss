@@ -126,8 +126,9 @@ button.desktop-explorer {
       pointer-events: all;
 
       &.active {
+        font-weight: bold;
         opacity: 1;
-        color: var(--third);
+        color: var(--tertiary);
       }
     }
   }
