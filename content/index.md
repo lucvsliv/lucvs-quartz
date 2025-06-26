@@ -7,4 +7,5 @@ title: Home
 permalink: /
 ---
 
-<img src="images/lapras.png" style="width: 50%; height: auto;">
+<img src="images/ocean_pokemon.png" style="width: 50%; height: auto;">
+
