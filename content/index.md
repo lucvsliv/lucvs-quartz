@@ -7,4 +7,4 @@ title: Home
 permalink: /
 ---
 
-<img src="images/lapras.png">
+<img src="images/lapras.png" style="width: 50%; height: auto;">
