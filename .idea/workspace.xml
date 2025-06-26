@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dc9c83a1-d214-4044-9eac-6dcf36941fa7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ Spring/Principle/0x10. Spring Boot Overview/0x12. Maven.md" beforePathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x10. Spring Boot Overview/0x12. Maven.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/ Spring/Principle/0x10. Spring Boot Overview/0x12. Maven.md" afterPathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x10. Spring Boot Overview/0x12. Maven.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ Spring/Principle/0x10. Spring Boot Overview/0x17. Spring Boot Properties.md" beforePathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x10. Spring Boot Overview/0x17. Spring Boot Properties.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/ Spring/Principle/0x10. Spring Boot Overview/0x17. Spring Boot Properties.md" afterPathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x10. Spring Boot Overview/0x17. Spring Boot Properties.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ Spring/Principle/0x30. Hibernate &amp; JPA CRUD/0x31. Hibernate &amp; JPA Overview.md" beforePathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x30. Hibernate &amp; JPA CRUD/0x31. Hibernate &amp; JPA Overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/ Spring/Principle/0x30. Hibernate &amp; JPA CRUD/0x31. Hibernate &amp; JPA Overview.md" afterPathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x30. Hibernate &amp; JPA CRUD/0x31. Hibernate &amp; JPA Overview.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ Database/MySQL Database.md" beforePathEscaped="$PROJECT_DIR$/content/📦 Database/MySQL Database.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/ Database/MySQL Database.md" afterPathEscaped="$PROJECT_DIR$/content/📦 Database/MySQL Database.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/quartz.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz/components/styles/explorer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/components/styles/explorer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz/styles/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/styles/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz/util/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/util/theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +86,7 @@
       <workItem from="1743743445742" duration="2425000" />
       <workItem from="1743913790953" duration="485000" />
       <workItem from="1743914282765" duration="607000" />
+      <workItem from="1750919499694" duration="600000" />
     </task>
     <servers />
   </component>
