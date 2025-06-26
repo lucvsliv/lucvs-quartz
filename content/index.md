@@ -7,5 +7,5 @@ title: Home
 permalink: /
 ---
 
-<img src="images/ocean_pokemon.png" style="width: 100%; height: auto;">
+<img src="images/ocean_pokemon_faded.png" style="width: 100%; height: auto;">
 
