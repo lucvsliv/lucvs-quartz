@@ -6,14 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="dc9c83a1-d214-4044-9eac-6dcf36941fa7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ Spring/Principle/0x10. Spring Boot Overview/0x12. Maven.md" beforePathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x10. Spring Boot Overview/0x12. Maven.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/ Spring/Principle/0x10. Spring Boot Overview/0x12. Maven.md" afterPathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x10. Spring Boot Overview/0x12. Maven.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ Spring/Principle/0x10. Spring Boot Overview/0x17. Spring Boot Properties.md" beforePathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x10. Spring Boot Overview/0x17. Spring Boot Properties.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/ Spring/Principle/0x10. Spring Boot Overview/0x17. Spring Boot Properties.md" afterPathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x10. Spring Boot Overview/0x17. Spring Boot Properties.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ Spring/Principle/0x30. Hibernate &amp; JPA CRUD/0x31. Hibernate &amp; JPA Overview.md" beforePathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x30. Hibernate &amp; JPA CRUD/0x31. Hibernate &amp; JPA Overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/ Spring/Principle/0x30. Hibernate &amp; JPA CRUD/0x31. Hibernate &amp; JPA Overview.md" afterPathEscaped="$PROJECT_DIR$/content/🌱 Spring/Principle/0x30. Hibernate &amp; JPA CRUD/0x31. Hibernate &amp; JPA Overview.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ Database/MySQL Database.md" beforePathEscaped="$PROJECT_DIR$/content/📦 Database/MySQL Database.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/ Database/MySQL Database.md" afterPathEscaped="$PROJECT_DIR$/content/📦 Database/MySQL Database.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/quartz.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz/components/styles/explorer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/components/styles/explorer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz/styles/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/styles/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz/util/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/util/theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/Open API/공공데이터포털 오픈 API 오류.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/Trouble-Shooting/Infinite Loading (feat. Spring Boot &amp; Next.js).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +24,12 @@
     &quot;assignee&quot;: &quot;lucvsliv&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/lucvsliv/lucvs-quartz.git&quot;,
-    &quot;accountId&quot;: &quot;9af25b39-1a99-48f6-9444-eb12d7daf636&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lucvsliv/lucvs-quartz.git",
+    "accountId": "e0ea00af-39db-407c-81f9-418d518edd98"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -43,23 +38,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;v4&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lucvs/Downloads/git/lucvs-quartz/content/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/lucvs/Downloads/git/lucvs-quartz/node_modules/prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/lucvs/Downloads/git/lucvs-quartz/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "v4",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Lucvs/Desktop/lucvs-quartz",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/lucvs/Downloads/git/lucvs-quartz/node_modules/prettier",
+    "ts.external.directory.path": "/Users/lucvs/Downloads/git/lucvs-quartz/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/content/images" />
@@ -73,8 +68,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
       </set>
     </attachedChunks>
   </component>
@@ -93,6 +88,7 @@
       <workItem from="1743743445742" duration="2425000" />
       <workItem from="1743913790953" duration="485000" />
       <workItem from="1743914282765" duration="607000" />
+      <workItem from="1751114471040" duration="2300000" />
     </task>
     <servers />
   </component>
