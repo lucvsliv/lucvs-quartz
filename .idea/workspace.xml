@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc9c83a1-d214-4044-9eac-6dcf36941fa7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/content/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/images/Pasted image 20250626144235.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/images/lapras.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/images/ocean_pokemon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/images/ocean_pokemon_faded.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/ Spring/ETC/CORS.md" afterPathEscaped="$PROJECT_DIR$/content/🌱 Spring/ETC/CORS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +44,9 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;v4&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;v4 병합 중&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lucvs/Desktop/lucvs-quartz&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lucvs/Downloads/git/lucvs-quartz/content/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -85,7 +90,8 @@
       <workItem from="1743743445742" duration="2425000" />
       <workItem from="1743913790953" duration="485000" />
       <workItem from="1743914282765" duration="607000" />
-      <workItem from="1751114471040" duration="4057000" />
+      <workItem from="1751121895881" duration="5000" />
+      <workItem from="1751453747979" duration="13000" />
     </task>
     <servers />
   </component>
