@@ -35,7 +35,7 @@ main {
   --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f;
   --color-prettylights-syntax-constant-other-reference-link: #0a3069;
   --color-btn-text: #4e4e4e; /* --darkgray */
-  --color-btn-bg: #faf8f8; /* --light */
+  --color-btn-bg: #ffffff; /* --light */
   --color-btn-border: rgb(43, 43, 43 / 15%); /* --dark */
   --color-btn-shadow: 0 1px 0 rgb(31 35 40 / 4%);
   --color-btn-inset-shadow: inset 0 1px 0 rgb(255 255 255 / 25%);

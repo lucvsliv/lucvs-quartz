@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Lucvs Lab.",
+    pageTitle: "🌵 Lucvs lab.",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
+          light: "#ffffff",
+          lightgray: "#bcbcbc",
+          gray: "#808080",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
           secondary: "#439a51",
           third: "#12b193",
-          tertiary: "#2a83d3",
+          tertiary: "#7ccd91",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
+          light: "#1d1d1d",
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
           secondary: "#439a51",
           third: "#29bda4",
-          tertiary: "#318dd8",
+          tertiary: "#239542",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
         },

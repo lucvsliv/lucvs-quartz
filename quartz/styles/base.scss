@@ -91,7 +91,8 @@ a {
   color: var(--tertiary);
 
   &:hover {
-    color: var(--tertiary) !important;
+    color: var(--dark) !important;
+    background-color: rgba(28, 29, 30, 0.1);
   }
 
   &.internal {
@@ -374,42 +375,42 @@ h6 {
 
 // typography improvements
 h1 {
-  color: #28ac4d;
+  color: #95d5a5;
   font-size: 2.25em;
   margin-top: 2.25rem;
   margin-bottom: 1rem;
 }
 
 h2 {
-  color: #3ca658;
+  color: #7ccd91;
   font-size: 2.00rem;
   margin-top: 2.00rem;
   margin-bottom: 1rem;
 }
 
 h3 {
-  color: #58c374;
+  color: #6bca84;
   font-size: 1.75rem;
   margin-top: 1.75rem;
   margin-bottom: 1rem;
 }
 
 h4 {
-  color: #6bca84;
+  color: #58c374;
   font-size: 1.50rem;
   margin-top: 1.65rem;
   margin-bottom: 1rem;
 }
 
 h5 {
-  color: #7ccd91;
+  color: #3ca658;
   font-size: 1.25rem;
   margin-top: 1.60rem;
   margin-bottom: 1rem;
 }
 
 h6 {
-  color: #95d5a5;
+  color: #28ac4d;
   font-size: 1.10rem;
   margin-top: 1.55rem;
   margin-bottom: 1rem;
@@ -497,7 +498,7 @@ pre {
 
 code {
   font-size: 0.9em;
-  color: var(--dark);
+  color: var(--darkgray);
   font-family: var(--codeFont);
   border-radius: 5px;
   padding: 0.1rem 0.2rem;

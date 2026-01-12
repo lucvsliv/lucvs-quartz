@@ -6,6 +6,3 @@ dg-publish: true
 title: Home
 permalink: /
 ---
-
-<img src="images/ocean_pokemon_faded.png" style="width: 100%; height: auto;">
-

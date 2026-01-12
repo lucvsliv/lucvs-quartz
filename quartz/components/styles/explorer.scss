@@ -121,14 +121,19 @@ button.desktop-explorer {
     padding: 0;
 
     & li > a {
-      color: var(--dark);
+      color: var(--gray);
       opacity: 0.75;
       pointer-events: all;
+      padding: 0.3rem 0.5rem;
+      display: block;
+      border-radius: 0.5rem; // optional: round even when not active
 
       &.active {
         font-weight: bold;
         opacity: 1;
         color: var(--tertiary);
+        background-color: rgba(235, 255, 245);
+        border-radius: 0.5rem;
       }
     }
   }
@@ -147,7 +152,7 @@ button.desktop-explorer {
     overflow: hidden;
     margin-left: 6px;
     padding-left: 0.8rem;
-    border-left: 1px solid var(--lightgray);
+    //border-left: 1px solid var(--lightgray);
   }
 }
 
@@ -158,11 +163,11 @@ button.desktop-explorer {
   user-select: none;
 
   & div > a {
-    color: #109872;
+    color: var(--gray);
     font-family: var(--headerFont);
     font-size: 1.05rem;
-    font-weight: 700;
-    line-height: 1.5rem;
+    font-weight: 100;
+    line-height: 2.0rem;
     display: inline-block;
   }
 
@@ -196,7 +201,7 @@ button.desktop-explorer {
 
 .folder-icon {
   margin-right: 5px;
-  color: var(--secondary);
+  color: var(--darkgray);
   cursor: pointer;
   transition: transform 0.3s ease;
   backface-visibility: visible;
