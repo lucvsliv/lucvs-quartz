@@ -22,7 +22,7 @@ const AsciiAnimation: QuartzComponent = ({ fileData }: QuartzComponentProps) => 
 
         // 색상 설정
         brightColor: '#ccffcc', 
-        glowColor: '#00ff66',   
+        glowColor: '#80ff00ff',   
         baseColor: '#000000',   
         
         chars: "アァカサタナハマヤラワ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
