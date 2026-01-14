@@ -7,3 +7,5 @@ dg-home: true
 
 ## Data Retrieval & Generation
 ![[Pasted image 20251123173434.png]]
+
+
