@@ -12,8 +12,8 @@ const AsciiAnimation: QuartzComponent = ({ fileData }: QuartzComponentProps) => 
         rows: 25,
         
         // [속도 설정] 숫자가 작을수록 빠릅니다 (ms 단위)
-        minSpeed: 30,  // 가장 빠른 비의 속도
-        maxSpeed: 90, // 가장 느린 비의 속도
+        minSpeed: 20,  // 가장 빠른 비의 속도
+        maxSpeed: 80, // 가장 느린 비의 속도
         
         fadingTime: '1.5s', 
         
