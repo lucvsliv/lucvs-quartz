@@ -1,6 +1,6 @@
 ---
 created: 2026-01-22
-dg-publish:
+dg-publish: true
 ---
 #### Spring AI
 - 대부분의 프로젝트에서는 Spring AI로 충분 (native)
