@@ -7,6 +7,12 @@ dg-publish: true
 - 프로젝트가 고도화되면 -> LangChain4j로 이관 고려 예정
 
 
+#### Git Commit Message Format
+```shell
+git commit -m "feat: [APEX-XXXX] This is sample commit message"
+```
+
+
 #### PR Description Format
 ```markdown
 ## 📌 Title
