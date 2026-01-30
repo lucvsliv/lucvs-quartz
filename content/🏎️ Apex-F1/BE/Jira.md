@@ -11,3 +11,31 @@ dg-publish:
 - 🥛 Parc Fermé     : 개발 환경 배포 완료된 Task
 - 🏆 Podium         : 운영 환경 배포 완료된 Task (추가 예정)
 ```
+
+
+## Jira Ticket Description Format
+```markdown
+## 📝 Summary (요약)
+- summary 1
+- summary 2
+
+## 🛠 Tasks (할 일)
+* Task A
+* Task B
+* Task C
+
+## 🏗 Technical Specs
+
+- spec 1
+- spec 2
+- spec 3
+
+## ✅ Acceptance Criteria
+- criteria 1   
+- criteria 2
+- criteria 3
+
+## 🔌 Related Issue
+- Jira: APEX-XXXX
+- Epic: [XXXX] Epic Example
+```
