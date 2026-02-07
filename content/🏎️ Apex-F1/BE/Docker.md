@@ -9,7 +9,7 @@ dg-publish: true
 docker compose -f .docker/docker-compose.yml down -v
 ```
 
-###### .env 적용하여 docker 실행
+###### `.env` 적용하여 docker 실행
 ```shell
 docker compose --env-file .env -f .docker/docker-compose.yml up -d
 ```
