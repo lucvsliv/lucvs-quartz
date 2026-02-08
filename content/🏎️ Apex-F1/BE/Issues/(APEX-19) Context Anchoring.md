@@ -15,7 +15,7 @@ Esteban OCON} : 0.8471368257039713
 
 
 ## Cause
-- Driver 데이터를 임베딩하여 저장하는 로직에서 사용하는 임베딩 모델이 이미 학습한 사전 지식에 따라, `Fernando Alonso`가 이전에 `Ferrari` 소속이었다는 사실이 유사도 점수를 높게 산출함
+- Driver 데이터를 임베딩하여 저장하는 로직에서 사용하는 임베딩 모델이 이미 학습한 사전 지식에 따라, `Fernando Alonso`가 이전에 `Ferrari` 소속이었다는 사실이 유사도 점수를 높게 산출했음
 
 
 ## Solution Candidates
