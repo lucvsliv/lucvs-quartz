@@ -35,4 +35,5 @@ Esteban OCON} : 0.8471368257039713
 > - (유지보수) 만약 서비스가 의도하는 결과를 반환하기 위하여 별도의 Fallback을 구축하지 않아도 됨
 
 - Driver 데이터에 `Year` 정보를 추가
-- `drivers.description` column에도 연도 정보를 추가
+- `drivers.description` column에도 연도 정보를 추가 (`Season` 추가)
+- `DriverMapper`에 `Season` 관련 로직 추가
