@@ -27,3 +27,11 @@ docker compose --env-file .env -f .docker/docker-compose.yml -f .docker/docker-c
 ```shell
 docker logs -f apex-f1-postgres
 ```
+
+
+### Alias
+```bash
+alias dcup='docker compose --env-file .env -f .docker/docker-compose.yml -f .docker/docker-compose.override.yml up -d'
+
+alias dcdown='docker compose --env-file .env -f .docker/docker-compose.yml -f .docker/docker-compose.override.yml down'
+```
