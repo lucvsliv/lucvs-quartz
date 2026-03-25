@@ -8,8 +8,7 @@ dg-publish: true
 ```bash
 docker compose --env-file .env -f .docker/docker-compose.yml -f .docker/docker-compose.override.yml up -d
 ```
-
-
+- 처음 빌드 시: `--build` 옵션 추가
 ## Docker 중지
 ###### 컨데이터 중지
 ```shell

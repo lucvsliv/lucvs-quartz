@@ -12,3 +12,8 @@ dg-publish: true
 > Error executing DDL "()" via JDBC \[ERROR: type "vector" does not exist Position: 195]
 - 설명: Hibernate가 `drivers` 테이블을 생성하려고 했으나, PostgreSQL에서 `vector`라는 타입을 인식할 수 없어서 오류 발생, pgevector extension이 존재하지 않아서 발생
 - 해결: `application.yml` 설정에서 `spring.ai.pgvector.initialize-schema: true` 옵션을 추가하여 스키마를 초기화 (DB에서 `CREATE EXTENSION IF NOT EXISTS vector;` 쿼리를 사용한 것과 같은 효과)
+
+
+#### 웹에서 접근 가능한 Authenticated Endpoint가 Postman에서는 403
+> 403
+- 설명: Request -> Spring Security (Filter) -> Interceptor -> Controller 순으로 진행되는데, Postman 접근에서는 
