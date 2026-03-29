@@ -1,6 +1,6 @@
 ---
 created: 2026-01-23
-dg-publish:
+dg-publish: true
 ---
 ## 업무 상태
 ```text
