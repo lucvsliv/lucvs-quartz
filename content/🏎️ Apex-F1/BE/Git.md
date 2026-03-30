@@ -2,11 +2,6 @@
 created: 2026-01-22
 dg-publish: true
 ---
-#### Spring AI
-- 대부분의 프로젝트에서는 Spring AI로 충분 (native)
-- 프로젝트가 고도화되면 -> LangChain4j로 이관 고려 예정
-
-
 #### Git Commit Message Format
 ```shell
 git commit -m "feat: [APEX-XXXX] This is sample commit message"
