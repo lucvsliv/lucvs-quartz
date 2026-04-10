@@ -1,6 +1,6 @@
 ---
 created: 2026-03-10
-dg-publish: true
+dg-publish: false
 ---
 ## Infrastructure/Deployment 개념
 
