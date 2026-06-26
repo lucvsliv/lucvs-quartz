@@ -2,7 +2,6 @@
 created: 2026-03-21
 dg-publish: true
 ---
-### 멈춰버린 EC2
 ![[스크린샷 2026-03-21 18.40.10.png]]
 Spring Boot 프로젝트를 가져와서 Docker Compose를 하려고 하니까 갑자기 빌드 도중에 EC2가 아예 멈춰버렸다. 지난번에는 Docker를 사용하지 않고 그냥 바로 Spring Application을 실행하니까 CPU 사용량이 최대치를 초과하여 멈춘 적은 있지만 빌드 과정에서는 처음이다.
 
