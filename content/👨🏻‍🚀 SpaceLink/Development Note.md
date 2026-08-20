@@ -10,4 +10,6 @@ dg-publish:
 - [ ] 공간 상태가 `PENDING` 일 때 -> FE/BE 에서 모두 공간 수정 방어 로직 필요
 	- [ ] BE -> 공간 수정 로직 내에서 공간 상태가 `PENDING`이면 Exception
 	- [ ] FE -> 공간 수정 버튼 비활성화 필요
-- [ ] 
+
+#### 2026.07.30.
+- [ ] Aggregate Root인 `Space`에 종속된 하위 엔티티들은 `SpaceMapper`에서 응집도 높게 관리하고, 독립적인 마스터 도메인은 개별 Mapper(`AmenityMapper` 등)로 분리하여 관리
